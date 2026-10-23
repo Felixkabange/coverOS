@@ -1,0 +1,6 @@
+@CoverOS.Api_HostAddress = http://localhost:5170
+
+GET {{CoverOS.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

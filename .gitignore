@@ -1,0 +1,25 @@
+# .NET build output
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Frontend dependencies and generated build files
+frontend/node_modules/
+frontend/dist/
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+**/secrets.json
+
+# Local agent configuration and credentials
+.agents/
+.codex/
+.aws/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
